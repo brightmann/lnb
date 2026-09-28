@@ -88,7 +88,7 @@ export default async function PostPage({ params }: PostPageProps) {
         <p className="text-lg mt-0 text-muted-foreground">{post.description}</p>
       ) : null}
       <hr className="my-4" />
-      <MDXComponents code={post.body} />
+      <MDXComponents slug={post.slugAsParams} />
     </article>
   );
 }

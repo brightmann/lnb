@@ -44,3 +44,6 @@ CLAUDE.local.md
 # alt lockfiles (use npm in CI/Prod)
 pnpm-lock.yaml
 bun.lock
+
+# opennext
+.open-next/
