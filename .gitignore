@@ -35,7 +35,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# velite - now outputs to public/data which is tracked by default
+# legacy velite output dir (unused: velite now outputs to public/data, which the
+# app imports via the #site/content -> ./public/data path alias; do not commit)
 .velite
 
 # claude 
